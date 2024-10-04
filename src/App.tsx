@@ -24,7 +24,7 @@ function App() {
     { name: 'Tiago', age: 45, country: 'Brasil'  },
     { name: 'Marcos', age: 42, country: 'Brasil'  },
     { name: 'Paulo', age: 40, country: 'Brasil'  },
-    { name: 'Andrá', age: 50, country: 'Brasil'  },
+    { name: 'André', age: 50, country: 'Paraguai'  },
   ];
   
   return (

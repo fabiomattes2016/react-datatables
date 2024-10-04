@@ -116,7 +116,7 @@ const DataTable = <T extends object>({ columns, data }: DataTableProps<T>) => {
             onClick={() => handlePageChange(currentPage - 1)}
             disabled={currentPage === 1}
           >⬅️</button>
-          <span style={{margin: '0 10px'}}>Página {currentPage} de {Math.ceil(sortedData.length / itemsPerPage)}</span>
+          <span style={{margin: '0 10px'}}>Página {currentPage} de {Math.ceil(sortedData.length / itemsPerPage)} de um total de {sortedData.length} registros.</span>
           <button
             onClick={() => handlePageChange(currentPage + 1)}
             disabled={currentPage === Math.ceil(sortedData.length / itemsPerPage)}
